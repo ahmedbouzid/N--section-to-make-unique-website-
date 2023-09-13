@@ -1,0 +1,63 @@
+#cards___section {
+    height: 100vh;
+    background-color: #d4caca;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2.2rem;
+}
+
+.container {
+    width: 95%;
+    height: 98%;
+    border-radius: 1.2rem;
+
+
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 1rem;
+
+}
+
+.cards {
+    position: relative;
+    background-color: rgb(238, 232, 225);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.user__info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 2rem;
+    border: 2px #fff solid;
+}
+h3 {
+    font-weight: 800;
+    font-size: 1.4rem;
+
+}
+
+
+p {
+
+    font-size: 1rem;
+    width: 95%;
+    line-height: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.social___icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
