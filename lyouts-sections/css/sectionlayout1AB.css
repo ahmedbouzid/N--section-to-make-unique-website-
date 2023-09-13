@@ -58,3 +58,48 @@ position: relative;
     border-radius: 1.2rem;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+
+
+
+/*** Layout 1B */
+
+.leftB {
+
+    width: 50%;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.leftB img {
+    width: 90%;
+    height: 90%;
+    border-radius: 1.2rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.rightB {
+    position: relative;
+        width: 50%;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .rightB h1 {
+        position: absolute;
+        font-size: 3rem;
+        text-decoration: overline;
+        text-shadow: 1px 3px 2px;
+        top: 20%;
+    }
+    .rightB p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        width: 90%;
+        line-height: 1.4rem;
+        letter-spacing: .1rem;
+    }
