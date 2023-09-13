@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+header {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+li a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+li a:hover {
+    border-bottom: 2px solid rgb(231, 240, 227);
+    cursor: pointer;
+    color: bisque;
+}
+
+button {
+    padding: .9rem 1.6rem;
+    color: #000;
+    border-radius: 0.6rem;
+    font-size: 1rem;
+}
+
+.login {
+    background: #4776e6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4776e6, #8e54e9); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4776e6, #8e54e9);
+    color: #fff;
+}
+
+#herosection {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.left{
+    width: 50%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.left h1{
+    position: absolute;
+font-size: 4rem;
+top: 80px;
+}
+.left p{
+    position: absolute;
+    margin-top: 2rem;
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: .1rem;
+    top: 160px;
+    width: 90%;
+    }
+.right {
+    width: 50%;
+}
+.herro___section___btn {
+padding: 1.2rem 2.8rem;
+background: #e52d27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border: none;
+color: white;
+font-size: 1.2rem;
+cursor: pointer;
+position: absolute;
+top: 320px;
+}
+.anonym____image {
+    height: 600px;
+    border-radius: .8rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
